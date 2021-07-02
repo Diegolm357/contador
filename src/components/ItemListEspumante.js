@@ -30,8 +30,6 @@ function ItemListEspumante() {
            esperandoDatos();
     }, [])
 
-
-
     return (
         <>
             <Container className="mb-3" align="center" >
