@@ -1,5 +1,5 @@
 import { Button, Image, Nav, Navbar, NavDropdown, Form, FormControl } from 'react-bootstrap';
-import { Link} from 'react-router-dom';
+
 import vino from '../vino.jpg';
 import CardWidget from './CardWidget';
 
@@ -12,7 +12,7 @@ function Navbars() {
     <Navbar.Brand href="#home"></Navbar.Brand>
     <CardWidget/>
     <Navbar.Brand href="#home"></Navbar.Brand>
-        <Link to='/'>INICIO</Link>
+       
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
