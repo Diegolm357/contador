@@ -18,7 +18,8 @@ function ItemCount({stock, onAdd}) {
  
   return (
     <>
-      <Button onClick={() => {setTesto(onAdd())}} variant="warning">COMPRAR</Button>
+      <Button onClick={() => { setTesto(onAdd()); }} variant="warning">COMPRAR</Button>
+      
      <ButtonGroup className="mr-2" aria-label="First group">
      
         

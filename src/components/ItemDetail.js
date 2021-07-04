@@ -9,13 +9,12 @@ function ItemDetail(props) {
     var a = 'Su compra es Exitosa';
     return (a);
   }
- 
-      return (
+       return (
         <>
                 <Card border="secondary">
                 <Card.Img variant="top" style={{ width: '150px' }} src={botella} />
      <Card.Body>
-        <Card.Title> El tinto
+        <Card.Title>MALBEC 
 
               </Card.Title>
               
